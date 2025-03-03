@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-size: 3.5rem;
+}
+button{
+    font-size: 7.5rem;
+    margin: 20px;
+    background-color: skyblue;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;  
+}
+#player{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#comp{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#result{
+    font-size: 4rem;
+    margin: 20px;
+    font-weight: bold;
+}
+.green, #p{
+    color: greenyellow;
+}
+.red, #c{
+    color: red;
+}
+
+.score{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
