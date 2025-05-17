@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.todo {
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 1rem;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #00b894;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+
+button:hover{
+    background: #028a6f;
+}
+
+li {
+  background: #2c2c2c;
+  margin: 6px 0;
+  padding: 8px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: white;
+  min-width: 200px;
+}
+
+.delete-btn {
+  max-width: 100px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+  height: auto;
+  line-height: 1;
+}
+
+
+.delete-btn:hover {
+  background: #c0392b;
+}
